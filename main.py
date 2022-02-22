@@ -142,7 +142,7 @@ class mywindow(QtWidgets.QMainWindow):
         result = numenator / Combinatoric.combinations_without_repeats(k, n)
 
         # Вывести результат в поле ответа
-        str_result = "{:01.12}".format(result)
+        str_result = "{:01.12f}".format(result)
         self.ui.P_lineEdit.setText(str_result)
 
 
